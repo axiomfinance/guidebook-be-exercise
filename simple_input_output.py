@@ -14,5 +14,5 @@ response = client.responses.create(
 )
 
 print("=== Full Response ===")
-# print(response.output_text)
-print(json.dumps(response.model_dump(), indent=2))
+print(response.output_text)
+# print(json.dumps(response.model_dump(), indent=2))
