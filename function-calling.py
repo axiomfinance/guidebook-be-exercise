@@ -121,7 +121,7 @@ conversation_3 = [
 
 response = client.responses.create(
     model="gpt-4.1",
-    input=conversation_1,
+    input=conversation_3,
     tools=tools,
 )
 
